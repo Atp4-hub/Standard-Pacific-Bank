@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Pacific Bank - Dedicated to helping partners succeed</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Standard Pacific Bank</div><br>
+        <img src="smilling woman.jpg" alt=""smilling woman image>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Banking Made Easy </h1>
+            <p>Enjoy our long-term credits at one digit interest with lots of innovative solutions</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Standard Pacific Bank has been serving customers for over 20 years; we work hard every day to set ourselves apart in providing innovative financial solutions keeping to standard operating procedure. We're committed to our clients and the communities we serve.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>20+</h3>
+                        <p>Years of Commercialization</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>2M+</h3>
+                        <p>Productive Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>350+</h3>
+                        <p>Branches</p>
+                    <div>
+                        <div class="stat-item">
+                            <h3>12</h3>
+                            <p>Product Portfolios</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-wallet"></i>
+                    <h3>Personal Banking</h3>
+                    <p>We offer a full array of deposit and loan products and services for owners of commercial businesses and consumers</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Business Banking</h3>
+                    <p>We specialize in servicing small and middle-market businesses and professionals who need a broad range of loan, deposit, and treasury management products</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-business-online-alt"></i>
+                    <h3>Traders Online Banking</h3>
+                    <p>We know that when our clients do well, we do well. Hence, it’s our focus every day to find new opportunities for our clients to grow and succeed. Bank anywhere, anytime with our secure app</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Savings</h3>
+                    <p>Savings - Personal Online deposits</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Plot 9, Broad Street, Lagos</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+234 (80) 967-496-96</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contact@standardpacificbank.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section" id="footer-section-1">
+                    <h3>Standard Pacific Bank</h3>
+                    <p>A bank to watch and a bank to beat</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 StandardPacificBank. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 
